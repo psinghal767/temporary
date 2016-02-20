@@ -1,0 +1,275 @@
+@media(max-width: 767px){ 
+	.navbar-toggle{
+		margin-top:3%;
+	}
+	.wmg-container {
+    margin: 0;
+	}
+	.bodycontainer {
+	    margin-top: 8%;
+	}
+	header .nav-pills li a {
+    font-size: 16px;
+	}
+	.quarter .login-btn{
+	    background-color: transparent !important;
+	    border: none;
+	}
+	.nav>li>a {
+		 padding: 0px;
+	}
+	.mobile-nav #logo-small {
+		    padding-top: 5px;
+	}
+	.mobile-nav #logo-small span{
+		font-size: 18px;
+	    margin-left: 5px;
+	    vertical-align: super;
+	    font-weight: 500;
+	    color:#ffffff;
+	    text-transform: none;
+	}
+
+	.wmg-padding-rignt {
+		    padding-right: 5px;
+	}
+
+	.wmg-padding-left {
+    padding-left: 5px;
+	}
+
+	.wmg-padding-top {
+    padding-top: 5px;
+	}
+
+	.wmg-padding-bottom {
+    padding-bottom: 5px;
+	}
+	.wmg-real-container .wmg-real-textarea .wmg-real-textarea-box {
+		margin: 10px;
+		padding: 10px;
+	}
+
+	.wmg-head {
+	    
+	    font-size: 25px;
+	    line-height: 1;
+	}
+
+	.wmg-text {
+		font-size: 11px;
+	}
+
+	.wmg-article-box {
+    padding: 15px 0;
+	}
+
+	.wmg-article-box .wmg-article-view {
+    padding: 10px;
+	}
+
+	.overl:after {
+		height: 95%;
+	    top: 11px;
+	    width: 94%;
+	}
+	.wmg-article-but {
+	    margin-bottom: 45px;
+	}
+	.wmg-curated-container .wmg-curated-textarea {
+    position: absolute;
+    top: 30%;
+     right: 0; 
+    width: 100%;
+	}
+
+	.wmg-info-container,.wmg-info-btn  {
+    padding: 40px 0;
+	}
+
+	.wmg-info-btn .wmg-list-btn,.wmg-info-btn .wmg-sub-wed {
+   
+  /*  padding: 10px 20px;*/
+    font-size: 11px;
+	}
+
+	/*.wmg-info-btn .wmg-sub-wed {
+   
+    padding: 10px 24px;
+    font-size: 11px;
+	}*/
+
+	.wmg-info-container .wmg-info-citybox {
+    width: 90%;
+	}
+
+	.quarter .nav-pro-image {
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    display: inline-block;
+
+}
+
+.mobile-nav #mobile-navbar1 {
+   
+    top: 40px;
+    right: 30px;
+   
+	}
+
+	.nav>li>a>img {
+		width:20px;
+		height:20px;
+	}
+	.nav>li>a>span {
+	padding: 0 5px;
+	font-size: 12px;
+    font-weight: 600;
+    vertical-align: bottom;
+	}
+
+	.nav .login-btn{
+		font-size: 13px;
+	}
+	.nav-pills>li.mobile-login{
+		float: right;
+	}
+
+	.mobile-nav #mobile-navbar {
+		    width: 238%;
+	}
+
+	.nav-pro-image{
+	  float:right;
+	}
+
+}
+@media(min-width: 361px) and (max-width: 375px){
+	.wmg-real-container .wmg-real-textarea {
+    top: 2.5%;
+	}
+	/*.wmg-info-btn .wmg-sub-wed {
+    padding: 10px 35px;
+	}*/
+}
+
+@media (min-width: 376px) and (max-width: 414px){
+	.wmg-real-container .wmg-real-textarea {
+		top: 3%;
+	}
+	
+
+	.wmg-info-btn .wmg-list-btn, .wmg-info-btn .wmg-sub-wed{
+	    font-size: 12px;
+	}
+
+	/*.wmg-info-btn .wmg-sub-wed{
+		    padding: 10px 40px;
+	}*/
+}
+
+
+@media (min-width: 321px) and (max-width: 360px){
+
+	.wmg-real-container .wmg-real-textarea {
+    top: 2.5%;
+	}
+}
+
+@media (min-width: 415px) and (max-width: 480px){
+	.wmg-banner-body {
+    margin-left: 70px;
+	}
+	.wmg-banner-body .wmg-banner-btn {
+
+    margin-left: -130px;
+
+	}
+	.mobile-nav #logo-small span {
+		    margin-left: 20px;
+	}
+	.wmg-real-container .wmg-real-textarea {
+		top:3%;
+	}
+	.wmg-text {
+    font-size: 14px;
+	}
+	.wmg-curated-container .wmg-curated-textarea .wmg-curated-head {
+		font-size: 38px;
+	}
+
+	.wmg-curated-container .wmg-curated-textarea .wmg-curated-text {
+		font-size: 18px;
+	}
+
+	.wmg-info-btn {
+    padding: 40px 10px;
+	}
+	header .nav-pills li a .fa-chevron-right{color: #989898;float: right;line-height: inherit;}
+
+	.bodycontainer{
+		margin-top:11%;
+	}
+}
+@media (min-width: 632px) and (max-width: 767px){
+
+.mobile-nav #logo-small span {
+    margin-left: 85px;
+}
+.wmg-info-btn {
+    padding: 40px 58px;
+}
+
+.wmg-real-container .wmg-real-textarea {
+    top: 3%;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 631px){
+.bodycontainer{
+	margin-top:11%;
+}
+.mobile-nav #logo-small span {
+    margin-left: 40px;
+}
+.wmg-info-btn {
+    padding: 40px 32px;
+}
+
+.wmg-real-container .wmg-real-textarea {
+    top: 3%;
+}
+
+}
+
+@media (max-width: 365px){
+.wmg-info-btn .wmg-sub-wed {
+    padding: 10px 31px;
+	}
+	.bodycontainer {
+    margin-top: 15%;
+	}
+
+	.navbar-toggle{
+		margin-top:7%;
+	}
+}
+
+@media (max-width: 340px){
+	.bodycontainer {
+    margin-top: 17%;
+	}
+
+	.mobile-nav .quarter {
+		width:27%;
+	}
+
+	.mobile-nav #logo-small span{
+	
+	    margin-left: 0px;
+	   
+	}
+
+}

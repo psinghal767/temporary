@@ -1,0 +1,20 @@
+/* CSS Document */
+/*
+Title:   Main Template Css File
+Author:  http://themeforest.net/user/hogash // Marius Hogas  */
+
+/* BODY FONT - Applies to everything */
+@font-face {
+	font-family: "33535gillsansmt";
+	src: url("33535gillsansmtd41d.eot?") format("eot"),  url("33535gillsansmt.woff") format("woff"),  url("33535gillsansmt.ttf") format("truetype");
+}
+@font-face {
+	font-family: "dancing_script";
+}
+@font-face {
+	font-family: "lavanderia_regular";
+	src: url("lavanderia_regulard41d.eot?") format("eot"),  url("lavanderia_regular.woff") format("woff"), url("lavanderia_regular.otf") format("otf"),  url("lavanderia_regular.ttf") format("truetype");
+	src: url(lavanderia_regular.otf);
+}
+
+/* CSS Document */

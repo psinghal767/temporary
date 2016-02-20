@@ -1,0 +1,1311 @@
+<!doctype html>
+<!--[if IE 7 ]>
+<html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-gb" class="no-js">
+	
+<!-- Mirrored from www.wedmegood.com/real_wedding/detail/ruchi-ashish by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Feb 2016 17:51:54 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XQIGVFRTGwIEVldWBgYF"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("../../index.html")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script>
+	<meta name="geo.region" content="India" />
+	<meta name="robots" content="index,follow" />
+	<meta name="GOOGLEBOT" content="INDEX, FOLLOW" />
+	<meta name="language" content="English" />
+	<meta name="country" content="India" />
+	<meta name="robots" content="ALL" />
+
+	<head >
+		<link rel="icon" href="https://d2eanzqpmoo3ec.cloudfront.net/images/favicon.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" href="https://d2eanzqpmoo3ec.cloudfront.net/images/favicon.ico" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="p:domain_verify" content="06ce40d9888c69c53befbce0f2ad5ad2"/>
+
+		<title>Goa weddings | Ashish & Ruchi wedding story | WedMeGood</title>		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="UTF-8" />
+<meta name="keywords" content="Goa, Ashish, Indian Wedding, WedMeGood, RealWedding Wedding" />
+<meta name="description" content="Best site to plan a modern Indian wedding, WedMeGood covers real weddings, genuine reviews and best vendors | candid photographers, Make-up artists, Designers etc" />
+<meta property="og:title" content="Goa weddings | Ashish &amp; Ruchi wedding story | WedMeGood" />
+<meta property="og:description" content="Best site to plan a modern Indian wedding, WedMeGood covers real weddings, genuine reviews and best vendors | candid photographers, Make-up artists, Designers etc" />
+<meta property="og:image" content="https://d1hpn7r5i0azx7.cloudfront.net/uploads/real_wedding_banner_left/247/thumbnails/thumb_270/1455255263_1455027941_Best_Beach_Destination_Wedding_Goa_Prasad_Jindam_Photography_Best_Candid_wedding_Photographer_Mumbai_1.jpg" />
+
+        
+        
+
+
+			        <script type="text/javascript">
+	            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	            })(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
+
+	            ga('create', 'UA-48097354-1', 'auto');
+	            ga('send', 'pageview');
+	        </script>
+
+			<!-- Start Alexa Certify Javascript -->
+			<script type="text/javascript">
+			_atrk_opts = { atrk_acct:"y+Rnk1a0Sn00EF", domain:"wedmegood.com",dynamic: true};
+			(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "../../../d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+			</script>
+			<noscript><img src="../../../d5nxst8fruw4z.cloudfront.net/atrk64cb.gif?account=y+Rnk1a0Sn00EF" style="display:none" height="1" width="1" alt="" /></noscript>
+			<!-- End Alexa Certify Javascript -->
+
+			<!-- Please call pinit.js only once per page -->
+			<!--<script defer type="text/javascript" async  data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>-->
+
+			<script type="text/javascript">
+			/**
+			* Function that tracks a click on an outbound link in Google Analytics.
+			* This function takes a valid URL string as an argument, and uses that URL string as the event label.
+			*/
+			var trackOutboundLink = function(url) {
+			   ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+			     function () {
+			     window.open(url,'_blank');
+			     }
+			   });
+			}
+			</script>
+        
+                    	<link rel="stylesheet" href="../../../d2eanzqpmoo3ec.cloudfront.net/css/bootstrap-3.2.min.css" type="text/css" />
+        	<!-- icon style -->
+			<link rel="stylesheet" type="text/css" href="../../../d2eanzqpmoo3ec.cloudfront.net/newcss/iconstyle.css" />
+			<link rel="stylesheet" href="../../../d2eanzqpmoo3ec.cloudfront.net/newUI/DateTimePicker.css" type="text/css" />
+						<link rel="stylesheet" href="../../../d2eanzqpmoo3ec.cloudfront.net/newUI/commoncf53.css?v=1.0.39" type="text/css" />
+			<!--  <link rel="stylesheet" media="only screen and (min-width:320px) and (max-width: 767px)" href="/newUI/mobile.css" />
+			<!--<link rel="stylesheet" media="only screen and (min-width:480px) and (max-width: 2600px)" href="/newUI/desktop.css" /> -->
+
+			<link rel="stylesheet" media="only screen and (min-width:320px) and (max-width: 767px)" href="../../../d2eanzqpmoo3ec.cloudfront.net/newUI/mobile1e02.css?v=0.4" />
+			<link rel="stylesheet" media="only screen and (min-width:480px) and (max-width: 2600px)" href="../../../d2eanzqpmoo3ec.cloudfront.net/newUI/desktop7e0c.css?v=0.1" />
+
+			<link rel="stylesheet" href="../../css/zebra_pagination.css" type="text/css" />
+
+			<link rel="stylesheet" type="text/css" href="../../../d2eanzqpmoo3ec.cloudfront.net/newcss/form7016.css?v=1.0.8">
+			<!-- <link rel="stylesheet" type="text/css" href="/newcss/form.css?v=1.0.6"> -->
+	  		<!--<link rel="stylesheet" href="/newUI/appinvite.css">-->
+	  		<link rel="stylesheet" href="../../../d2eanzqpmoo3ec.cloudfront.net/newUI/appinvite0ff5.css?v=1.0.2" type="text/css">
+            <!-- <link rel="stylesheet" href="https://d2eanzqpmoo3ec.cloudfront.net/newcss/font-awesome.min.css"Fc> -->
+            <link rel="stylesheet" href="../../newUI/stylef700.css?v=1.0.1">
+            <!-- <link rel="stylesheet" type="text/css" href="https://d2eanzqpmoo3ec.cloudfront.net/newUI/style.css?v=1.0.2"> -->
+
+			<link rel="stylesheet" href="../../../d2eanzqpmoo3ec.cloudfront.net/newcss/easy-responsive-tabs.css" type="text/css">
+			<link rel="stylesheet" href="../../../d2eanzqpmoo3ec.cloudfront.net/newcss/fontf700.css?v=1.0.1" type="text/css">
+
+
+			<!-- Gallery Css & Js Start-->
+			<link rel="stylesheet" href="../../../d2eanzqpmoo3ec.cloudfront.net/newcss/slider0ff5.css?v=1.0.2" type="text/css">
+			<!-- <link rel="stylesheet" href="/newcss/slider.css?v=1.0.1" type="text/css"> -->
+			<!-- tiny box code start here -->
+			<link rel="stylesheet" type="text/css" href="../../../d2eanzqpmoo3ec.cloudfront.net/newcss/reveal0ff5.css?v=1.0.2" />
+			<!-- <link rel="stylesheet" type="text/css" href="/newcss/modal.css?v=1.0.4"> -->
+			<link rel="stylesheet" type="text/css" href="../../../d2eanzqpmoo3ec.cloudfront.net/newcss/modale166.css?v=1.0.4">
+
+			<link rel="stylesheet" href="../../../d2eanzqpmoo3ec.cloudfront.net/css/tinybox/style.css"  type="text/css">
+			<link rel="stylesheet" href="../../../d2eanzqpmoo3ec.cloudfront.net/newcss/magnificpopup.css" type="text/css">
+			<link rel="stylesheet" href="../../../d2eanzqpmoo3ec.cloudfront.net/newcss/jquery-ui.css">
+						<!--perfect scrollbar css-->
+			<link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.6.5/css/perfect-scrollbar.min.css">
+
+			<link rel="stylesheet" href="../../newUI/vendordashboard.css" type="text/css" />
+
+
+        
+
+        <script src="../../../use.typekit.net/xoi8dvy.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
+		<!-- Facebook Conversion Code for Sign Ups -->
+        <script>(function() {
+        var _fbq = window._fbq || (window._fbq = []);
+        if (!_fbq.loaded) {
+        var fbds = document.createElement('script');
+        fbds.async = true;
+        fbds.src = '../../../connect.facebook.net/en_US/fbds.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(fbds, s);
+        _fbq.loaded = true;
+        }
+        })();
+        window._fbq = window._fbq || [];
+        window._fbq.push(['track', '6041350791539', {'value':'0.00','currency':'INR'}]);
+        </script>
+        <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6041350791539&amp;cd[value]=0.00&amp;cd[currency]=INR&amp;noscript=1" /></noscript>
+        <!-- Facebook Conversion Code for Sign Ups -->
+
+	</head>
+
+	<body class="" data-pin-hover="true">
+
+        <!-- Google Tag Manager -->
+		<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-WBRSM4"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-WBRSM4');</script>
+		<!-- End Google Tag Manager -->
+
+        <!--Navigation Panel -->
+        <header id="header">
+<div class="container-fluid" id="header-container">
+    <div class="wmg-container">
+        <div class="row-fluid">
+            
+ <!-- Mobile Menu -->
+                <ul class="nav nav-pills wmg-marginbottom10 mobile-nav visible-xs-block">
+                    <li class="quarter">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div id="mobile-navbar" class="navbar-collapse collapse" aria-expanded="true">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="../../vendors.html"> <img src="../../../d2eanzqpmoo3ec.cloudfront.net/images/vendor-alt.png" alt="vendor"><span>VENDORS</span> </a></li>
+                                    <li><a href="../index.html"><img src="../../../d2eanzqpmoo3ec.cloudfront.net/images/realweddings-alt.png" alt="realweddings"><span>REAL WEDDINGS</span></a></li>
+                                    <li>
+                                        <a href="../../blog/index.html"><img src="../../../d2eanzqpmoo3ec.cloudfront.net/images/articles-alt.png" alt="blog"><span>BLOG</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="../../explore_browse.html"> <img src="../../../d2eanzqpmoo3ec.cloudfront.net/images/photos-alt.png" alt="photos"><span>PHOTOS</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        
+                    </li>
+                   <li id="logo-small">
+                        <a href="../../index.html"><span>Wed<b>Me</b>Good</span></a>
+                    </li>
+                                            <li class="quarter mobile-login">
+                            <a class="wmg-common-btn login-btn usr-login-btn" onclick="showForm('#login_panel');" href="#login">LOGIN</a>
+                        </li>
+                                    </ul>
+                <!-- Mobile Menu Ends -->
+
+                <!-- Modal download view -->
+                <div id="downloadModal" class="modal">
+                    <div class="modal-dialog ta-c">
+                        <div class="modal-content modal-size">
+                            <div class="modal-body ta-c">
+                            <button type="button" class="close close-ltn f-s30" data-dismiss="modal" aria-label="Close" ><span aria-hidden="true">×</span></button>
+                                    <img src="../../images/wedlogo.png" class="app-modal-logo" >
+                                    <p class="f-w700">DOWNLOAD OUR APP!</p>
+                                    <div id="modal-download-link">
+                                    <a href="https://play.google.com/store/apps/details?id=com.wedmegood.planner" target="_blank"><img src="../../images/androidDownload.png" alt="android logo" class="h-35"  /></a>
+                                    <a href="https://appsto.re/in/TPdo-.i" target="_blank"><img src="../../images/appleDownload.png" alt="apple logo" class="h-35" /></a>
+                                    </div>
+                                    <p class="f-stext">GET LINK VIA SMS</p>
+                                    <form style="position:relative">
+                                    <input type="text" class="sms-val access-input form-control" id="modal-sms-input"/>
+                                    <input type="submit" id="modal-sms-button" onclick="submitSms(event)" value="GET SMS">
+                                    <p id="no-placeholder">+91</p>
+                                    <img src="../../images/spin.svg" class="status-icon spin-loader" />
+                                    <i class="fa fa-check status-icon tick-sms"></i>
+                                    </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Modal download view -->
+                <!-- START PRIMARY MENU -->
+                <div class="navbar hidden-xs wmg-navigation-bar new-nav ">
+                    <div class="navbar-inner">
+                        <ul class="nav wmg-nav wmg-paddingtop10 ">
+                        <li id="logo"><a href="../../index.html"><img src="../../../d2eanzqpmoo3ec.cloudfront.net/images/logo.png" alt="Wed me Good Menu"><span>Wed<b>Me</b>Good</span></a></li>
+                            <li><a href="../../vendors.html">
+                               <img src="../../../d2eanzqpmoo3ec.cloudfront.net/images/vendor.png" alt="vendor">
+                               <span>VENDORS</span>
+                            </a></li>
+                             <li><a href="../../explore_browse.html">
+                             <img src="../../../d2eanzqpmoo3ec.cloudfront.net/images/photos.png" alt="photos">
+                               <span>PHOTOS</span></a></li>
+                            <li>
+                                <a href="../index.html">
+                            <img src="../../../d2eanzqpmoo3ec.cloudfront.net/images/realweddings.png" alt="realweddings">
+                               <span>REAL WEDDINGS</span></a></li>
+                            <li><a href="../../blog/index.html">
+                           <img src="../../../d2eanzqpmoo3ec.cloudfront.net/images/articles.png" alt="articles">
+                               <span>BLOG</span></a></li>
+
+                            <!-- <li class="bridal-asia">
+                                <a href="/bridal-asia">BRIDAL ASIA <span class="badge">NEW</span></a>
+                            </li> -->
+                                                         <li class="search-login-nav nav-login hidden ">
+                                <div class="" id="search-bar">
+                                   <input type="text" name="search-value" id="search-value" class="form-control" placeholder="Quick Search"/>
+                                    <span class="nav-search-icon">
+                                        <i class="fa fa-search"></i>
+                                    </span>
+                                    <div id="search-results" class="hidden"></div>
+                                </div>
+                            </li>
+                         
+                            <li class="nav-login">
+                                <a onclick="showForm('#vendorregister_panel');">Register as a vendor</a>
+                            </li>
+                          
+                           <li class="nav-login">
+                            <a class="usr-login-btn" onclick="showForm('#login_panel');" href="#login">
+                                  Login
+                                </a>
+                           </li>
+                           
+                         
+                                                    <li class="nav-login">
+                                <a onclick="openModal()"><i class="fa fa-2x fa-mobile" id="app-download-logo"></i><span>Download App</span></a>                              
+                           </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- END PRIMARY MENU -->
+            
+        </div>
+    </div>
+</div>
+</header>   
+
+
+            		<div class="wmg-container" id="breadcrumbs">
+	    		<div class="row-fluid">
+	    			<div class="col-xs-12">
+	    				        <ul class="breadcrumb">
+            
+                <li class="first">        <a href="../../index.html">Home</a>        
+    </li>
+
+    
+                <li>        <a href="../index.html">Real Wedding</a>        
+    </li>
+
+    
+                <li class="current last">        <span>Ruchi &amp; Ashish</span>        
+    </li>
+
+
+    </ul>
+
+	    			</div>
+	    		</div>
+    		</div>
+    	        <!--END-->
+
+        
+        <!--Login Panel -->
+        <div id="login_panel" style="display: none;">
+    <div class="inner-container login-panel" id="user-login">
+        <h3 class="alternate-option"><a onclick="showForm('#register_panel');" class="">New to Wed Me Good? <span class="highlight">Create Account</span></a></h3>
+        
+
+    <form id="login_form" action="https://www.wedmegood.com/loginCheck" method="post" class="wmg-form">
+            <h3 class="form-title">Sign in your account to have access to different features</h3>
+            
+            <div class="left-panel">
+                <a href="https://www.facebook.com/v2.3/dialog/oauth?client_id=400046146843075&amp;redirect_uri=https%3A%2F%2Fwww.wedmegood.com%2Ffacebook%2Fconfirmation&amp;state=78b06449478e1b84f47c553fa6c4bf27&amp;sdk=php-sdk-4.0.23&amp;scope=email" class="login_facebook form-control">
+                    <i class="fa fa-facebook"></i>Connect with Facebook
+                </a>
+
+            </div>
+            <div class="separator">
+                <span class="circular-option">OR</span>
+            </div>
+            <div class="right-panel">
+                
+                <input type="text" id="username" name="_username"  class="form-control input-sm " placeholder="Email" required="true">
+                
+                <input type="password" id="password" name="_password"  class="form-control input-sm" placeholder="Password" required="true">
+
+                <input type="submit" id="_submit" name="_submit" class="form-control" value="LOG IN" />
+
+                <div class="help-link">
+                    <a onclick="showForm('#forgot_panel');" >FORGOT YOUR PASSWORD?</a>
+                </div>
+            </div>
+              
+    </form>
+    
+    </div>
+</div>
+
+
+        <!--END-->
+
+        <!--Vendor Register Panel -->
+        
+<div id="vendorregister_panel" style="display: none;">
+    <div class="inner-container register-panel" id="vendor-register">
+      <h3 class="alternate-option">
+        <a onclick="showForm('#login_panel');">ALREADY HAVE AN ACCOUNT? <span class="highlight">LOG IN</span></a>
+      </h3>
+        <form role="form" id="vendor-register-form" class="wmg-form" action = "https://www.wedmegood.com/register/vendor"method = "POST">
+    <h3 class="form-title">Please share the following details to create your profile</h3>
+        <input type="text" id="fos_user_registration_form_name" name="fos_user_registration_form[name]" required="required" class="vendor-register-form form-control" data-error-message="Please enter a valid email Id" placeholder="Brand Name" />
+        <input type="email" id="fos_user_registration_form_email" name="fos_user_registration_form[email]" required="required" class="vendor-register-form form-control" data-error-message="Please enter a valid email Id" placeholder="Email" />
+        <input type="password" id="fos_user_registration_form_plainPassword_first" name="fos_user_registration_form[plainPassword][first]" required="required" class="vendor-register-form form-control" placeholder="Password" data-error-message="Password length should be atleast 2" data-validation-minlength="2" />
+        <input type="password" id="fos_user_registration_form_plainPassword_second" name="fos_user_registration_form[plainPassword][second]" required="required" class="vendor-register-form form-control" placeholder="Confirm Password" data-error-message="Please repeat the password" data-validation-minlength="2" />
+         <input type="submit" onclick="ga('send', 'event', 'register', 'click', 'popup', 0);" id="signup" name="submit" class="form-control" value="CREATE MY ACCOUNT">
+    <input type="hidden" id="fos_user_registration_form__token" name="fos_user_registration_form[_token]" value="cdce4de4a52fec388ab012df119a58e91328712b" />
+</form>
+ 
+    </div>
+</div>
+          
+        <!--END-->
+
+        <!--User Register Panel -->
+         <div id="register_panel" style="display: none;">
+    <div class="inner-container register-panel" id="user-sign-up">
+        <h3 class="alternate-option">
+            <a onclick="showForm('#login_panel');">ALREADY HAVE AN ACCOUNT? <span class="highlight">LOG IN</span></a>
+        </h3>
+         <form role="form" action = "https://www.wedmegood.com/register/user"method = "POST" id="register_form" class="wmg-form">
+
+    <h3 class="form-title">Please share the following details to create your profile
+            <span class="help-text"><i class="fa fa-check"></i>Takes less than 20 seconds</span>
+    </h3>
+    <div class="left-panel">
+        <a href="../../facebook_login.html" class="login_facebook form-control">
+            <i class="fa fa-facebook"></i>Connect with Facebook
+        </a>
+    </div>
+    <div class="separator">
+        <span class="circular-option">OR</span>
+    </div>
+    <div class="right-panel">
+        <input type="text" id="fos_user_registration_form_name" name="fos_user_registration_form[name]" required="required" class="form-control" data-error-message="Please enter a valid email Id" placeholder="Name" />
+        <input type="email" id="fos_user_registration_form_email" name="fos_user_registration_form[email]" required="required" class="form-control" data-error-message="Please enter a valid email Id" placeholder="Email" />
+        <input type="password" id="fos_user_registration_form_plainPassword_first" name="fos_user_registration_form[plainPassword][first]" required="required" class="form-control" placeholder="Password" data-error-message="Password length should be atleast 2" data-validation-minlength="2" />
+        <input type="password" id="fos_user_registration_form_plainPassword_second" name="fos_user_registration_form[plainPassword][second]" required="required" class="form-control" placeholder="Confirm Password" data-error-message="Please repeat the password" data-validation-minlength="2" />
+        <input type="submit" onclick="ga('send', 'event', 'user-register', 'click', 'popup', 0);" id="signup" name="submit" value="CREATE MY ACCOUNT" class="form-control">
+    </div>
+    <div class="note">
+            <a onclick="showForm('#vendorregister_panel');">ARE YOU A VENDOR?</a>
+    </div>
+
+    <input type="hidden" id="fos_user_registration_form__token" name="fos_user_registration_form[_token]" value="cdce4de4a52fec388ab012df119a58e91328712b" />
+</form>
+ 
+    </div>
+</div>
+        <!--END-->
+
+
+        <!--Forget Panel -->
+        <div id="forgot_panel" style="display: none;">
+    <div class="inner-container forgot-panel" id="forgot-user">
+      <form id="forgot_form" action="https://www.wedmegood.com/resetting/send-email" name="forgot_form" method="post" class="wmg-form">
+        <h3 class="form-title">FORGOT YOUR DETAILS?</h3>
+      	<input type="text" id="username" name="username" class="form-control" placeholder="Email Address" required="required">
+        <input type="submit" id="recover" name="submit" class="form-control" value="SEND MY DETAILS!">
+        <div class="help-link"><a onclick="showForm('#login_panel');">AAH, WAIT, I REMEMBER NOW!</a></div>
+      </form>
+    </div>  
+</div>
+
+
+    
+        <!--END-->
+
+
+
+
+        <!--Contact View Panel -->
+        <div id="contact_view_panel" style="display:none;">
+    <div class="inner-container register-panel" id="view-contact-details">
+      <h3 class="alternate-option">
+          <a onclick="showForm('#login_panel');">ALREADY HAVE AN ACCOUNT?</a>
+      </h3>
+       <form role="form" action = "https://www.wedmegood.com/register/user"method = "POST" id="register_form" class="wmg-form">
+
+    <h3 class="form-title">Please share the following details to create your profile
+            <span class="help-text"><i class="fa fa-check"></i>Takes less than 20 seconds</span>
+    </h3>
+    <div class="left-panel">
+        <a href="../../facebook_login.html" class="login_facebook form-control">
+            <i class="fa fa-facebook"></i>Connect with Facebook
+        </a>
+    </div>
+    <div class="separator">
+        <span class="circular-option">OR</span>
+    </div>
+    <div class="right-panel">
+        <input type="text" id="fos_user_registration_form_name" name="fos_user_registration_form[name]" required="required" class="form-control" data-error-message="Please enter a valid email Id" placeholder="Name" />
+        <input type="email" id="fos_user_registration_form_email" name="fos_user_registration_form[email]" required="required" class="form-control" data-error-message="Please enter a valid email Id" placeholder="Email" />
+        <input type="password" id="fos_user_registration_form_plainPassword_first" name="fos_user_registration_form[plainPassword][first]" required="required" class="form-control" placeholder="Password" data-error-message="Password length should be atleast 2" data-validation-minlength="2" />
+        <input type="password" id="fos_user_registration_form_plainPassword_second" name="fos_user_registration_form[plainPassword][second]" required="required" class="form-control" placeholder="Confirm Password" data-error-message="Please repeat the password" data-validation-minlength="2" />
+        <input type="submit" onclick="ga('send', 'event', 'user-register', 'click', 'popup', 0);" id="signup" name="submit" value="CREATE MY ACCOUNT" class="form-control">
+    </div>
+    <div class="note">
+            <a onclick="showForm('#vendorregister_panel');">ARE YOU A VENDOR?</a>
+    </div>
+
+    <input type="hidden" id="fos_user_registration_form__token" name="fos_user_registration_form[_token]" value="cdce4de4a52fec388ab012df119a58e91328712b" />
+</form>
+ 
+      
+    </div>
+  </div>
+        <!--END-->
+
+        <!--Content Panel -->
+        
+                <!--END-->
+
+        <!--Body Panel -->
+        <div class="bodycontainer">
+
+            <div class="container">
+            	<div class="row">
+            		<div class="col-md-6 col-md-offset-3">
+        		        
+    					
+    					
+    					
+    					
+			        	
+                                            				</div>
+            	</div>
+            </div>
+
+            
+<div class="container-fluid">
+    <div class="shadowUPnew"> </div>
+
+    <!-- main container start here -->
+    <div class="wmg-container">
+            <div class="wmg-content-row row-fluid">
+                <div class="col-xs-12">
+                    <div class="row-fluid page-title" >
+                                                <h1 class="center">Ruchi & Ashish</h1>
+                        <p class="wmg-para-imp">Fun, carefree and colorful Marathi wedding vibe in Goa </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wmg-content-row row-fluid banner">
+                <div class="col-xs-6 banner">
+                                        <a onclick="set_modal_image('198321', '247');" class="wmg-real-banner">
+                      <div style="background-image:url('../../../d2eanzqpmoo3ec.cloudfront.net/uploads/real_wedding_banner_left/247/thumbnails/thumb_800/1455255263_1455027941_Best_Beach_Destination_Wedding_Goa_Prasad_Jindam_Photography_Best_Candid_wedding_Photographer_Mum');"></div>
+                  </a>
+                                    </div>
+                <div class="col-xs-6 banner">
+                                        <a onclick="set_modal_image('198322', '247');" class="wmg-real-banner">
+                      <div style="background-image:url('../../../d2eanzqpmoo3ec.cloudfront.net/uploads/real_wedding_banner_right/247/thumbnails/thumb_800/1455255263_1455027683_Best_Destination_Wedding_Goa_Prasad_Jindam_Photography_Best_Candid_wedding_Photographer_Mumbai_3');"></div>
+                  </a>
+                    
+                </div>
+            </div>
+            <!-- end BANNER images-->
+
+            <!-- to be removed---defined for mobile -->
+            <div class="col-xs-12 hidden-sm hidden-md hidden-lg center">
+              <button id="showhidereview" class="wmg-common-btn" data-toggle="collapse" data-target="#showreview">Show Vendors</button>
+            </div>
+            <div class="row-fluid">
+                <div id="loading" class="col-xs-10"></div>
+            </div>
+            <!-- to be removed --defined for mobile -->
+
+            <div class="wmg-content-row row-fluid clearfix">
+                <!-- Left panel -->
+                <div class="col-xs-12 col-sm-5 col-md-3 wmg-margintop15" id="showreview">
+                    <ul class="wmg-tagged-vendors">
+                                                    <li>
+                                                                                                            <div class="wmg-tagged-vendor row-fluid no-gutter">
+                                            <div class="wmg-vendor-img col-xs-3 pull-left">
+                                                                                                    <img oncontextmenu="return false;" src="../../../d2eanzqpmoo3ec.cloudfront.net/uploads/vendor_types/919513252.png" alt="">
+                                                                                            </div>
+                                            <div class="wmg-vendor-title col-xs-9 pull-left">
+                                                                                                    PNP Entertainment
+                                                <br>
+                                                 <span class="wmg-vendor-text "></span>
+                                            </div>
+                                            <div class="wmg-vendor-text col-xs-12">
+                                                  
+                                            </div>
+                                        </div>
+                                                                                                </li>
+                            <hr />
+                                                    <li>
+                                                                                                            <div class="wmg-tagged-vendor row-fluid no-gutter">
+                                            <div class="wmg-vendor-img col-xs-3 pull-left">
+                                                                                                    <img oncontextmenu="return false;" src="../../../d2eanzqpmoo3ec.cloudfront.net/uploads/vendor_types/859614398.png" alt="">
+                                                                                            </div>
+                                            <div class="wmg-vendor-title col-xs-9 pull-left">
+                                                                                                    Arunima Majhi
+                                                <br>
+                                                 <span class="wmg-vendor-text "></span>
+                                            </div>
+                                            <div class="wmg-vendor-text col-xs-12">
+                                                  
+                                            </div>
+                                        </div>
+                                                                                                </li>
+                            <hr />
+                                                    <li>
+                                                                                                            <div class="wmg-tagged-vendor row-fluid no-gutter">
+                                            <div class="wmg-vendor-img col-xs-3 pull-left">
+                                                                                                    <img oncontextmenu="return false;" src="../../../d2eanzqpmoo3ec.cloudfront.net/uploads/vendor_types/404062982.png" alt="">
+                                                                                            </div>
+                                            <div class="wmg-vendor-title col-xs-9 pull-left">
+                                                                                                    Tanishq
+                                                <br>
+                                                 <span class="wmg-vendor-text "></span>
+                                            </div>
+                                            <div class="wmg-vendor-text col-xs-12">
+                                                  
+                                            </div>
+                                        </div>
+                                                                                                </li>
+                            <hr />
+                                                    <li>
+                                                                                                            <div class="wmg-tagged-vendor row-fluid no-gutter">
+                                            <div class="wmg-vendor-img col-xs-3 pull-left">
+                                                                                                    <img oncontextmenu="return false;" src="../../../d2eanzqpmoo3ec.cloudfront.net/uploads/vendor_types/795584996.png" alt="">
+                                                                                            </div>
+                                            <div class="wmg-vendor-title col-xs-9 pull-left">
+                                                                                                    Longuinhos Beach Resort
+                                                <br>
+                                                 <span class="wmg-vendor-text "></span>
+                                            </div>
+                                            <div class="wmg-vendor-text col-xs-12">
+                                                  
+                                            </div>
+                                        </div>
+                                                                                                </li>
+                            <hr />
+                                                    <li>
+                                                                    <div class="wmg-tagged-vendor row-fluid no-gutter">
+                                        <div class="wmg-vendor-img col-xs-3 pull-left">
+                                            <a href="../../profile/Prasad-Jindam-Photography-7500.html" title="Prasad Jindam Photography">
+                                                <img oncontextmenu="return false;" src="../../../d2eanzqpmoo3ec.cloudfront.net/uploads/vendor_types/297196594.png" alt="">
+                                            
+                                            </a>
+
+                                        </div>
+                                        <div class="wmg-vendor-title col-xs-9 pull-left">
+                                            <a href="../../profile/Prasad-Jindam-Photography-7500.html">
+                                                Prasad Jindam Photography
+                                            </a><br>
+                                             <span class="wmg-vendor-text "></span>
+                                        </div>
+                                        <div class="wmg-vendor-text col-xs-12">
+                                                                                    </div>
+                                    </div>
+
+                                                            </li>
+                            <hr />
+                                                    <li>
+                                                                    <div class="wmg-tagged-vendor row-fluid no-gutter">
+                                        <div class="wmg-vendor-img col-xs-3 pull-left">
+                                            <a href="../../profile/Hairspray-and-The-Artist-24828.html" title="Hairspray &amp; The Artist">
+                                                <img oncontextmenu="return false;" src="../../../d2eanzqpmoo3ec.cloudfront.net/uploads/vendor_types/593181128.png" alt="">
+                                            
+                                            </a>
+
+                                        </div>
+                                        <div class="wmg-vendor-title col-xs-9 pull-left">
+                                            <a href="../../profile/Hairspray-and-The-Artist-24828.html">
+                                                Hairspray &amp; The Artist
+                                            </a><br>
+                                             <span class="wmg-vendor-text "></span>
+                                        </div>
+                                        <div class="wmg-vendor-text col-xs-12">
+                                                                                    </div>
+                                    </div>
+
+                                                            </li>
+                            <hr />
+                                            </ul>
+                </div>
+                
+                <!-- RightPanel -->
+                <div class="col-xs-12 col-sm-7 col-md-9">
+                    <h3 class="wmg-title-simple">
+                        <strong>Ruchi & Ashish</strong>&nbsp;
+                        <span>Goa, India</span>&nbsp;&nbsp;
+                        <span class='st_facebook_hcount' displayText='Facebook'></span>
+                        <span class='st_email_hcount' displayText='Email'></span>
+                        <!-- scripts for fb at the bottom of the page -->
+                    </h3>
+                    
+                    <div class="wmg-gallery-container row-fluid real-wedding-grid">
+                        <div id="gallery" role="main" class="col-xs-12">
+                            <input type="hidden" id="return_path" value="/real_wedding/detail/ruchi-ashish" >
+                            <ul class="tiles">
+                                                                                                            <li class="dynamic">
+                                            <a id="image_198357" onclick="set_realwedding_image('198357','247',false,true);" class="prettyPhoto_transparent">
+                                              <img class="gallery-img lazy" width="266" height="137.52" oncontextmenu="return false;" data-original="../../../d1hpn7r5i0azx7.cloudfront.net/uploads/real_wedding/247/thumbnails/thumb_270/1455256130_21_Best_Destination_Wedding_Goa_Cocktail_Decor_Prasad_Jindam_Photography_Best_Candid_wedding_Photographer_Mumbai_2_01.31">
+                                            </a>
+                                        </li>
+                                                                            <li class="dynamic">
+                                            <a id="image_198356" onclick="set_realwedding_image('198356','247',false,true);" class="prettyPhoto_transparent">
+                                              <img class="gallery-img lazy" width="266" height="177.42" oncontextmenu="return false;" data-original="../../../d1hpn7r5i0azx7.cloudfront.net/uploads/real_wedding/247/thumbnails/thumb_270/1455256129_20_Best_Destination_Wedding_Goa_Prasad_Jindam_Photography_Best_Candid_wedding_Photographer_Mumbai_242.jpg">
+                                            </a>
+                                        </li>
+                                                                            <li class="dynamic">
+                                            <a id="image_198355" onclick="set_realwedding_image('198355','247',false,true);" class="prettyPhoto_transparent">
+                                              <img class="gallery-img lazy" width="266" height="436.07" oncontextmenu="return false;" data-original="../../../d1hpn7r5i0azx7.cloudfront.net/uploads/real_wedding/247/thumbnails/thumb_270/1455256128_19_Best_Destination_Wedding_Goa_Prasad_Jindam_Photography_Best_Candid_wedding_Photographer_Mumbai_35.jpg">
+                                            </a>
+                                        </li>
+                                                                            <li class="dynamic">
+                                            <a id="image_198353" onclick="set_realwedding_image('198353','247',false,true);" class="prettyPhoto_transparent">
+                                              <img class="gallery-img lazy" width="266" height="177.42" oncontextmenu="return false;" data-original="../../../d1hpn7r5i0azx7.cloudfront.net/uploads/real_wedding/247/thumbnails/thumb_270/1455256128_18_Best_Destination_Wedding_Goa_Prasad_Jindam_Photography_Best_Candid_wedding_Photographer_Mumbai_4.jpg">
+                                            </a>
+                                        </li>
+                                                                                                </ul>
+                        </div>
+                        <input type="hidden" name="last_image_id" id="last_image_id" value="1">
+                        <input type="hidden" name="real_id" id="real_id" value="247">
+                         <input type="hidden" name="bannerLeftImage" id="bannerLeftImage" value="198321">
+                        <input type="hidden" name="bannerRightImage " id="bannerRightImage" value="198322">
+                         <input type="hidden" name="leftImage" id="leftImage" value="198373">
+                        <input type="hidden" name="rightImage" id="rightImage" value="198374">
+                        <div id="error" class="center"></div> 
+                    </div>
+                                    </div>
+            </div>
+            <!-- content row ends -->
+
+            <div class="row-fluid wmg-content-row no-gutter wmg-rowstyle-collage" id="explore_similar" style="">
+                <div class="col-xs-12">
+                    <h2 class="center">Browse Similar Weddings</h2>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="row-fluid wmg-big-img no-gutter">
+                                <div class="col-xs-12">
+                                    <div class="wmg-outer-container">
+                                        <div class="wmg-inner-container">
+                                         <a href="pragati-saurabh-goa.html" data-type="link"  > 
+                          <img src="../../../d2eanzqpmoo3ec.cloudfront.net/uploads/real_wedding_banner_left/188/thumbnails/thumb_400/1439705665_08_IMG_2042.jpg" oncontextmenu="return false;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end ITEM (.inner-item) -->
+                            <div class="row-fluid wmg-small-img no-gutter">    
+                                <div class="col-xs-6">
+                                    <div class="wmg-outer-container">
+                                        <div class="wmg-inner-container">
+                                            <a href="pragati-saurabh-goa.html" data-type="link"  > 
+                          <img src="../../../d2eanzqpmoo3ec.cloudfront.net/uploads/real_wedding_left_image/188/thumbnails/thumb_400/1439705666_63_Saurabh_and_Pragati___Wedding__15_.jpg" oncontextmenu="return false;">
+                                            </a> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="wmg-outer-container">
+                                        <div class="wmg-inner-container">
+                                            <a href="pragati-saurabh-goa.html" data-type="link" > 
+                          <img src="../../../d2eanzqpmoo3ec.cloudfront.net/uploads/real_wedding_right_image/188/thumbnails/thumb_400/1439705666_22_IMG_4834__1_.jpg" oncontextmenu="return false;">
+                                            </a> 
+                                        </div>
+                                    </div>       
+                                </div>
+                            </div>
+                            <div class="row-fluid no-gutter">  
+                                <div class="col-xs-12">      
+                                    <div class="wmg-content-title">
+                                        <a href="pragati-saurabh-goa.html">
+                                            Pragati &amp; Saurabh (Goa)
+                                        </a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="row-fluid wmg-big-img no-gutter">
+                                <div class="col-xs-12">
+                                    <div class="wmg-outer-container">
+                                        <div class="wmg-inner-container">
+                                         <a href="37.html" data-type="link"  > 
+                          <img src="../../../d2eanzqpmoo3ec.cloudfront.net/uploads/real_wedding_banner_left_image/37/thumbnails/thumb_400/498008790.jpg" oncontextmenu="return false;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end ITEM (.inner-item) -->
+                            <div class="row-fluid wmg-small-img no-gutter">    
+                                <div class="col-xs-6">
+                                    <div class="wmg-outer-container">
+                                        <div class="wmg-inner-container">
+                                            <a href="37.html" data-type="link"  > 
+                          <img src="../../../d2eanzqpmoo3ec.cloudfront.net/uploads/real_wedding_left_image/37/thumbnails/thumb_400/561951091.jpg" oncontextmenu="return false;">
+                                            </a> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="wmg-outer-container">
+                                        <div class="wmg-inner-container">
+                                            <a href="37.html" data-type="link" > 
+                          <img src="../../../d2eanzqpmoo3ec.cloudfront.net/uploads/real_wedding_right_image/37/thumbnails/thumb_400/334573658.jpg" oncontextmenu="return false;">
+                                            </a> 
+                                        </div>
+                                    </div>       
+                                </div>
+                            </div>
+                            <div class="row-fluid no-gutter">  
+                                <div class="col-xs-12">      
+                                    <div class="wmg-content-title">
+                                        <a href="37.html">
+                                            Heba &amp; Varun (Goa)
+                                        </a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="row-fluid wmg-big-img no-gutter">
+                                <div class="col-xs-12">
+                                    <div class="wmg-outer-container">
+                                        <div class="wmg-inner-container">
+                                         <a href="harshana-and-jay-goa.html" data-type="link"  > 
+                          <img src="../../../d2eanzqpmoo3ec.cloudfront.net/uploads/real_wedding_banner_left/206/thumbnails/thumb_400/1444283898_IP__41_.jpg" oncontextmenu="return false;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end ITEM (.inner-item) -->
+                            <div class="row-fluid wmg-small-img no-gutter">    
+                                <div class="col-xs-6">
+                                    <div class="wmg-outer-container">
+                                        <div class="wmg-inner-container">
+                                            <a href="harshana-and-jay-goa.html" data-type="link"  > 
+                          <img src="../../../d2eanzqpmoo3ec.cloudfront.net/uploads/real_wedding_left_image/206/thumbnails/thumb_400/1444283899_IP__38_.jpg" oncontextmenu="return false;">
+                                            </a> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="wmg-outer-container">
+                                        <div class="wmg-inner-container">
+                                            <a href="harshana-and-jay-goa.html" data-type="link" > 
+                          <img src="../../../d2eanzqpmoo3ec.cloudfront.net/uploads/real_wedding_right_image/206/thumbnails/thumb_400/1444283900_IP__48_.jpg" oncontextmenu="return false;">
+                                            </a> 
+                                        </div>
+                                    </div>       
+                                </div>
+                            </div>
+                            <div class="row-fluid no-gutter">  
+                                <div class="col-xs-12">      
+                                    <div class="wmg-content-title">
+                                        <a href="harshana-and-jay-goa.html">
+                                            Harshana and Jay (Goa)
+                                        </a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+
+  
+            
+        </div>
+        <!-- wmg-container ends -->
+</div>
+<!--container fluid ends -->
+
+
+<!-- **************modal window********************************************** -->
+
+        <div id="myModal" class="reveal-modal">
+             <!-- <h2>Showing <span id="current"></span>of </h2> -->
+             <div id="load_content"></div>
+             <div id="modal-loader"><i class="fa fa-circle-o-notch fa-spin"></i></div>
+             <i class="fa fa-chevron-left arrow left"></i>
+             <i class="fa fa-chevron-right arrow right"></i>
+             <a title="Press Esc to close" class="close-reveal-modal">&#215;</a>
+        </div>
+
+<!-- **********************************end of modal window*********************************** -->
+
+
+<div class="hide">
+  <div id="transparent_panel" class="transparent_content">
+
+  </div>
+</div>
+
+<a title="Scroll To Top" id="scroll-top"><span></span></a>
+
+        </div>
+        <!--END-->
+
+        <!-- **************modal window********************************************** -->
+
+        <div id="formModal" class="reveal-modal">
+             <!-- <h2>Showing <span id="current"></span>of </h2> -->
+             <div id="load_form"></div>
+             <a class="close-reveal-modal">&#215;</a>
+        </div>
+
+<!-- **********************************end of modal window*********************************** -->
+
+        <!--Footer Panel -->
+        <!-- new code start here -->
+<!-- footer start -->
+<div class="clear"> </div>
+ <div id="app-fixed-footer">
+ 	<i class="fa fa-close app-fixed-close" onclick="closeFooter()"></i>
+	<img src="../../../d2eanzqpmoo3ec.cloudfront.net/images/logo-pink-small.png" id="app-fixed-logo">
+	<div id="app-fixed-text">
+		<p>Get the WedMeGood App</p>
+		<p id="app-fixed-subtext">Available on the App Store</p>
+	</div>
+    <button onclick="appBtn()" id="app-fixed-button">GET</button>
+</div> 
+<footer>
+	<div class="row-fluid clearfix">
+		<div class="col-xs-9">
+			<ul>
+				<li><a href="../../index.html">Home</a></li>
+				<li>|</li>
+				<li><a href="../../about_us.html">About Us</a></li>
+				<li>|</li>
+				<li><a href="../../contact_us.html">Contact Us</a></li>
+				<li>|</li>
+				<li><a href="../../careers.html">Careers</a></li>
+				<li>|</li>
+				<li><a href="../../terms.html">Terms</a></li>
+				<li>|</li>
+				<li><a href="../../privacy.html">Privacy Policy</a></li>
+				<li>|</li>
+				<li><a href="../../sitemap.html">Sitemap</a></li>
+				<li>|</li>
+				<li class="wmg-highlight-link"><a onclick="showForm('#vendorregister_panel');">REGISTER AS A VENDOR</a></li>
+				<li>|</li>
+				<li class="wmg-highlight-link"><a href="../../blog/submit-a-wedding/index.html">SUBMIT WEDDING</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-3">
+			<ul class="footerFloat">
+				<li><a href="https://twitter.com/wedmegood" target="blank"><img src="../../../d2eanzqpmoo3ec.cloudfront.net/newimages/twitter.png" width="20px" height="20px" alt="Wed Me Good Twitter"></a></li>
+				<li><a href="https://www.facebook.com/wedmegood" target="blank"><img src="../../../d2eanzqpmoo3ec.cloudfront.net/newimages/facebook.png" width="20px" height="20px" alt="Wed Me Good Facbook"></a></li>
+				<li><a href="https://www.pinterest.com/wedmegood" target="blank"><img src="../../../d2eanzqpmoo3ec.cloudfront.net/newimages/pinterest.jpg" width="20px" height="20px" alt="Wed Me Good Pinterest"></a></li>				
+			</ul>
+		</div>
+	</div>
+</footer>
+<!-- end -->
+<!-- BAck to top Start -->
+<p id="back-top">
+	<a href="#top"><span></span>
+</a>
+</p>
+<!-- BAck to top End-->
+<!-- new code end here -->
+
+
+
+
+
+
+
+
+
+        <!--END-->
+
+            
+        <script type="text/javascript" src="../../../d2eanzqpmoo3ec.cloudfront.net/newjs/jquery-1.11.min.js"></script>
+        <script type="text/javascript" src="../../../d2eanzqpmoo3ec.cloudfront.net/newjs/DateTimePicker.js"></script>
+        <script type="text/javascript" src="../../../d2eanzqpmoo3ec.cloudfront.net/newjs/jquery.flexisel.js"></script>
+        <!-- <script type="text/javascript" src="/newjs/jquery.flexisel.js"></script> -->
+		<script type="text/javascript" src="../../../d2eanzqpmoo3ec.cloudfront.net/newjs/responsiveslides.min.js"></script>
+		<script type="text/javascript" src="../../../d2eanzqpmoo3ec.cloudfront.net/newjs/js.cookie.js"></script>
+		<script type="text/javascript" src="../../../d2eanzqpmoo3ec.cloudfront.net/newjs/easyResponsiveTabs.js"></script>
+		<script type="text/javascript" src="../../../d2eanzqpmoo3ec.cloudfront.net/newjs/bootstrap-3.2.min.js"></script>
+		<script type="text/javascript" src="../../../d2eanzqpmoo3ec.cloudfront.net/js/tinybox/tinybox.js"></script>
+		<script type="text/javascript" src="../../../d2eanzqpmoo3ec.cloudfront.net/newjs/reveal.js"></script>
+		
+    	<script type="text/javascript" src="../../newjs/modal7016.js?v=1.0.8"></script>
+    	<!--<script type="text/javascript" src="https://d2eanzqpmoo3ec.cloudfront.net/newjs/modal.js?v=1.0.7"></script>-->
+		<script type="text/javascript" src="../../../d2eanzqpmoo3ec.cloudfront.net/js/custom0ff5.js?v=1.0.2"></script>
+		<script type="text/javascript" src="../../../d2eanzqpmoo3ec.cloudfront.net/newjs/jquery-ui.js"></script>
+		<!--Perfect scrollbar-->
+		<script type="text/javascript" src="../../../cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.6.5/js/min/perfect-scrollbar.jquery.min.js"></script>
+		<script src="../../../www.listjs.com/no-cdn/list.js"></script>
+		<script src="../../../www.listjs.com/no-cdn/list.fuzzysearch.js"></script>
+		<script type="text/javascript" src="../../newjs/vendorinbox.js"></script>
+
+
+		<!-- *******************************event INTEGRATION************************** -->
+		<!--<script type="text/javascript" src="/newjs/custom/events.js"></script>-->
+		<!-- *******************************MISHTAG INTEGRATION************************** -->
+
+		<!--<script src="http://mypiccoin.appspot.com/mtgck/6296331056316416"></script>
+		<script src="https://apis.google.com/js/client.js?onload=mishtaginit"></script>
+		<script>mishtagsetpid('6296331056316416');</script>-->
+		<!-- **********************//MISHTAG INTEGRATION******************** -->
+
+		<!-- *******************************Boot strap Multiselect INTEGRATION************************** -->
+				<!-- *******************************//Boot strap Multiselect INTEGRATION************************** -->
+
+
+		<!-- more less code start -->
+		<script type="text/javascript" src="../../../d2eanzqpmoo3ec.cloudfront.net/newjs/hideMaxListItem-min.js"></script>
+		<script type="text/javascript" src="../../newjs/common008c.js?v=1.0.10"></script>
+		<!--<script type="text/javascript" src="https://d2eanzqpmoo3ec.cloudfront.net/newjs/common.js?v=1.0.10"></script>-->
+		<script type="text/javascript" src="../../newjs/tracking008c.js?v=1.0.10"></script>
+		<!--<script type="text/javascript" src="https://d2eanzqpmoo3ec.cloudfront.net/newjs/tracking.js?v=1.0.10"></script>-->
+
+		<script type="text/javascript">
+			$("#errorOnRegistration").fadeTo(5000, 500).slideUp(500, function(){
+	            $("#errorOnRegistration").alert('close');
+	        });
+	        $("#errorOnLogin").fadeTo(5000, 500).slideUp(500, function(){
+	            $("#errorOnLogin").alert('close');
+	        });
+	        $("#realwedding-consult").fadeTo(5000, 500).slideUp(500, function(){
+            	$("#realwedding-consult").alert('close');
+        	});
+        	$("#wrongCaptcha").fadeTo(5000, 500).slideUp(500, function(){
+            	$("#wrongCaptcha").alert('close');
+        	});
+		</script>
+		<script type="text/javascript">
+			if( /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+				if(!Cookies.get('downloadpopup')) {
+				  $('#app-fixed-footer').css({"display":"block","z-index":"3"});
+				}
+			};
+		 	var openModal = function() {
+		 		$('#downloadModal').modal('show');
+		 	};
+		 	var appBtn = function() {
+		 		if(/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+		 			window.location.href ='https://appsto.re/in/TPdo-.i';
+		 		} else {
+		 			window.location.href = 'https://play.google.com/store/apps/details?id=com.wedmegood.planner';
+		 		}
+		 	};
+
+		 	var closeFooter = function() {
+		 		$('#app-fixed-footer').css('display','none');
+		 		var date = new Date();
+				var minutes = 7;
+				date.setTime(date.getTime() + (minutes * 60 * 1000));
+				Cookies.set("downloadpopup", "true", { expires: date });
+		 	};
+		 	var submitSms = function(e) {
+		 		e.preventDefault();
+		 		var $input = $(e.target).parents('form').find('.sms-val');
+		 		var $arrowaccess = $(e.target).parents('form').find('#arrowaccess');
+		 		var $spin_loader = $(e.target).parents('form').find('.spin-loader');
+		 		var $tick_sms = $(e.target).parents('form').find('.tick-sms')
+		 		var phNo = $input.val();
+
+		 		if(isNaN(phNo)|| phNo.length != 10 ) {
+		 			$input.css('border','1px solid red');
+		 		} else {
+		 			$arrowaccess.css('display','none');
+		 			$spin_loader.css('display','block');
+		 			$input.css('border','1px solid #d5d5d5');
+		 			$.ajax({
+			 			method: 'post',
+			 			url: 'https://www.wedmegood.com/download_link_sms',
+			 			data: {
+			 				'mobile_number': phNo
+			 			},
+			 			success: function(data) {
+				 			$spin_loader.css('display','none');
+				 			$tick_sms.css('display','block');
+				 			$input.val('');
+				 		}
+			 		})
+		 		}
+		 	};
+		    $(function() {
+		    	var today = new Date();
+		    	var dd = today.getDate();
+		    	var mm = today.getMonth()+1; //January is 0!
+		    	var yyyy = today.getFullYear();
+		    	today = dd+'-'+mm+'-'+yyyy;
+		    	$("#hired_date").DateTimePicker({
+		    		maxDate: today,
+		    	});
+		        $( "#functionDate" ).datepicker();
+		     /*   $( ".hired_date" ).datepicker({
+		            showOn: "both",
+		            buttonText: "<i class='fa fa-calendar'></i>",
+		            maxDate:0
+		        });*/
+		    });
+		</script>
+
+		
+      
+
+    <script type="text/javascript" src="../../../d2eanzqpmoo3ec.cloudfront.net/js/jquery.wookmark.min.js"></script>
+    
+<script type="text/javascript">
+    (function ($){
+      var $tiles = $('.tiles'),
+          $handler = $('li', $tiles),
+          $main = $('#gallery'),
+          $window = $(window),
+          $document = $(document),
+          options = {
+            autoResize: true, // This will auto-update the layout when the browser window is resized.
+            container: $main, // Optional, used for some extra CSS styling
+            offset: 5, // Optional, the distance between grid items
+            //itemWidth: 271 // Optional, the width of a grid item
+          };
+
+
+
+           
+    $("#showhidereview").click(function(){
+    $("#showreview").toggle();
+  });
+      
+
+      /**
+       * Reinitializes the wookmark handler after all images have loaded
+       */
+      var cnt=1;
+      var intervalID="";
+      var i=1000;
+      function lazyload(target){
+           target.find("img.lazy").each(function(){
+               var img = new Image(),// javascript emulation of <img>
+                   _this = $(this);// img.lazy
+               
+               // triggered when network load finishes
+               img.onload = function(){
+                   _this.attr("src", _this.attr("data-original"));// assign loaded image to img.lazy
+                   _this.removeClass("lazy");
+               }
+
+               // start network load
+               img.src = _this.attr("data-original");
+           });
+      }
+
+      function applyLayout() {
+          if ($handler.wookmarkInstance) {
+            $handler.wookmarkInstance.clear();
+          }
+
+          // Create a new layout handler.
+          $handler = $('li', $tiles);
+          $handler.wookmark(options);
+      }
+      /**
+       * When scrolled all the way to the bottom, add more tiles
+       */
+      function onScroll() {
+          $('#error').html("<img src='../../../d2eanzqpmoo3ec.cloudfront.net/images/loaderr.gif'>"); 
+          var last_image_id=document.getElementById("last_image_id").value;
+          var real_wed_id=document.getElementById("real_id").value;
+          var bannerLeftImage = document.getElementById("bannerLeftImage").value;
+          var bannerRightImage = document.getElementById("bannerRightImage").value;
+          var leftImage = document.getElementById("leftImage").value;
+          var rightImage = document.getElementById("rightImage").value;
+        // Check if we're within 100 pixels of the bottom edge of the broser window.
+          var winHeight = window.innerHeight ? window.innerHeight : $window.height(), // iphone fix
+          closeToBottom = ($window.scrollTop() + winHeight > $document.height() - 500);
+
+//        if (closeToBottom) {
+          // Get the first then items from the grid, clone them, and add them to the bottom of the grid
+          //$("#error").html("<img src='<?php echo base_url;?>images/loading.gif'>");
+              $.ajax({
+                    url: "/realWeddingGallery",  
+                    type: "GET",  
+                    data: "last_image_id="+cnt+"&real_wed_id="+real_wed_id+"&bannerLeftImage="+bannerLeftImage+"&bannerRightImage="+bannerRightImage+"&leftImage="+leftImage+"&rightImage="+rightImage,  
+                    success: function (res) {
+                        //alert(res);
+                        if( res == 1 )
+                        {
+                          console.log(res);
+                          clearInterval(intervalID);
+                          //document.getElementById("error").innerHTML="<center>No more images.</center>"
+                          $("#error").html("");  
+                        }else
+                        {
+                          $("#error").html("");  
+                          var test=res.split("<SEP>");
+                          $tiles.append(test[0]);
+                          $('#error').html(""); 
+                          document.getElementById("last_image_id").value=test[1];
+                          lazyload($('.tiles'));
+                        }
+
+                        applyLayout();
+                    }  
+                });
+                cnt++;
+          
+//        }
+      };
+
+      // Call the layout function for the first time
+      applyLayout();
+      lazyload($('.tiles'));
+      intervalID = setInterval(onScroll, 800);
+      // Capture scroll event.
+      //$window.bind('scroll.wookmark', onScroll);
+    })(jQuery);
+  </script>
+
+
+        <script type="text/javascript">
+    function set_modal_image(id, realWedId)
+    {
+        $('#modal-loader').css('visibility','visible');
+        $.ajax({
+            url: "https://www.wedmegood.com/getModalImageFull",
+            type: "POST",
+            data: { imageID: id , realWedId: realWedId },
+            async: false,
+            success:function(res){
+                showModal(res, source, false, false);
+                //TINY.box.show(res,0,971,0,1);
+            }
+        });
+    }
+    </script>
+
+    <!-- share this scripts -->
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="../../../ws.sharethis.com/button/buttons.js"></script>
+    
+    <script>
+    // ShareThis Asynchronous Javascript Loading
+    // from https://techblog.willshouse.com/?p=5265
+    (function(){
+        // window.switchTo5x=false; // (optional)
+        var e=document.createElement("script");
+        e.type="text/javascript";
+        e.async=true;
+        e.onload=function(){
+            try{
+                stLight.options({publisher: "7126e2ea-4f38-4238-9c5b-fe6e9873e74b", doNotHash: true, doNotCopy: true, hashAddressBar: false});
+            }catch(e){ /* optionally do something to handle errors here */ }
+        }
+        e.src=('https:' == document.location.protocol ? 'https://ws' : 'http://w') + '.sharethis.com/button/buttons.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(e, s);
+    })();
+    </script>
+
+    <!-- share this for dynamic elements -->
+    <script>
+    stLight.options({
+        publisher:'7126e2ea-4f38-4238-9c5b-fe6e9873e74b'
+    });
+    </script>
+
+    <!-- share this script ends -->
+		<!--Wedding Consultant Panel -->
+        <div id="wedding_consulting_panel" style="display: none;"> 
+
+	<div class="inner-container wedding_consulting_panel wmg-margintop20 white-popup mfp-with-anim mfp-hide" id="wedding_consulting">
+        <h1 class="form-title">Wedding Consulting on WMG</h1>
+          <p class="alternate-option wmg-marginbottom10 center">Finding Mr right turning out easier than finding the right vendor? Need a bridal makeup artist that suits your style or a photographer that fits the bill ?? Relax , take a deep breath and leave it to us. Just fill the form in below and we shall be in touch with you to understand your requirements soon. This is a free service during our launch, but will soon be chargeable!</p>
+       
+        <center>
+             
+        </center> 
+   </div>
+
+	
+</div>
+
+
+<script type="text/javascript" src="../../../d2eanzqpmoo3ec.cloudfront.net/newjs/bootstrap-multiselect.js"></script>
+
+<script type="text/javascript">
+    $('#webmuch_realweddingbundle_weddingconsulting_vendorType').multiselect();
+</script>
+        <!--END-->
+        <!-- Magnific Popup core JS file -->
+		<script src="../../../d2eanzqpmoo3ec.cloudfront.net/newjs/magnificpopup.js"></script>
+		<script type="text/javascript">
+		    // Example 1: From an element in DOM
+		    $('.open-wedding-consulting').magnificPopup({
+		        removalDelay: 500, //delay removal by X to allow out-animation
+		            callbacks: {
+		                beforeOpen: function() {
+		                this.st.mainClass = this.st.el.attr('data-effect');
+		            }
+		        },
+		        midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+		    });
+		</script>
+
+		<script type="text/javascript">
+		    $(function() {
+		        $( "#weddingDate" ).datepicker();
+		    });
+		</script>
+		<script type="text/javascript">
+		    $(function() {
+		        $(".secondHeader ul li ul li").hover(function(){
+		        	 $(this).parent().parent().addClass('nav-hover');
+			       // $(".secondHeader ul .secondhead-menu>a").addClass("nav-hover");
+			        }, function(){
+			        $(this).parent().parent().removeClass("nav-hover");
+			    });
+		    });
+		</script>
+		<script type="text/javascript">
+			var didScroll;
+			var lastScrollTop = 0;
+			var delta = 5;
+			var navbarHeight = $('.secondHeader').outerHeight();
+
+			$(window).scroll(function(event){
+			    didScroll = true;
+			});
+
+			setInterval(function() {
+			    if (didScroll) {
+			        hasScrolled();
+			        didScroll = false;
+			    }
+			}, 250);
+
+			function hasScrolled() {
+			    var st = $(this).scrollTop();
+
+			    // Make sure they scroll more than delta
+			    if(Math.abs(lastScrollTop - st) <= delta)
+			        return;
+
+			    // If they scrolled down and are past the navbar, add class .nav-up.
+			    // This is necessary so you never see what is "behind" the navbar.
+			    if (st > lastScrollTop && st > navbarHeight && screen.width >= 768){
+			        // Scroll Down
+			        $('.secondHeader').removeClass('nav-down').addClass('nav-up');
+			        $(".nav-up").slideUp();
+			    } else {
+			        // Scroll Up
+			        if(st + $(window).height() < $(document).height() && screen.width >= 768) {
+			            $('.secondHeader').removeClass('nav-up').addClass('nav-down');
+			              $(".nav-down").slideDown();
+			        }
+			    }
+
+			    lastScrollTop = st;
+			}
+		</script>
+
+		<!--Crazy Egg Script -->
+		<script type="text/javascript">
+		setTimeout(function(){var a=document.createElement("script");
+		var b=document.getElementsByTagName("script")[0];
+		a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0039/9085.js?"+Math.floor(new Date().getTime()/3600000);
+		a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+		</script>
+		<!--Crazy Egg Script -->
+
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"22279d1a26","applicationID":"14264172","transactionName":"b1dXZkBSDUpTVhVbV1YddFFGWgxXHX0OX116R1tWXlZZcF9UBlcCX1dBe19SBFxhWhRAW10=","queueTime":0,"applicationTime":150,"atts":"QxBUEAhIHkQ=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body>
+
+<!-- Mirrored from www.wedmegood.com/real_wedding/detail/ruchi-ashish by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Feb 2016 17:52:08 GMT -->
+</html>

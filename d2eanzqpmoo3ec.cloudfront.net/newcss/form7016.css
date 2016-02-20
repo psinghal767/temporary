@@ -1,0 +1,377 @@
+/* Mod Title */
+
+/*code added by himanshu*/
+#real_wedding_request{
+    width: 700px;
+    height: 160px;
+}
+
+#real_wedding_request p a{
+    color: #FA296F;
+}
+
+#real_wedding_request .wmg-form input,#real_wedding_request .wmg-form textarea{
+    width: 100%;
+}
+
+#real_wedding_request .captcha img{
+    margin: 0 auto 5px;
+}
+
+#user-login{
+    width: 600px;
+    height: 270px;
+    text-align: center;
+}
+
+.alternate-option span.highlight{
+    color: #fb0455;
+}
+
+.alternate-option{
+    border-bottom: 1px solid #333;
+    font-size: 14px;
+    padding-bottom: 2px;
+}
+
+
+
+h3.form-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+h3.form-sub-heading {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#vendor-register{
+    text-align: center;
+    height: 315px;
+    width: 550px;
+}
+#user-sign-up {
+  width: 600px;
+  height: 360px;
+  text-align: center;
+}
+#forgot-user{
+    width: 350px;
+    height: 180px;
+    text-align: center;
+}
+
+#view-contact-details{
+    width: 600px;
+    height: 325px;
+    text-align: center;
+}
+
+#sendEnquiry{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+#claim_vendor_form
+{
+   width:280px;
+height:270px;
+text-align: center;
+}
+
+
+#wedding_consulting
+{
+    width:670px;
+    /*height: 600px;*/
+    height: auto;
+    text-align: center;
+    border:10px solid #f8ecca;
+}
+
+.wmg-form  .btn-default
+{
+    float: right;
+    margin: 0 0 15px 0 !important;
+    text-align: left;
+    width: 310px !important;
+       background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 12px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+
+.wmg-form  .open > .dropdown-menu
+{
+    width: 310px;
+   margin:-15px 0 0 !important;
+}
+
+
+.wmg-form .checkbox input[type="checkbox"] {
+    margin-left: -20px !important;
+
+}
+
+
+.wmg-form .btn .caret
+{
+margin-left:155px;
+}
+
+#find_me_a_vendor_form
+{
+width:360px;
+height: 250px;
+text-align: center;
+}
+#fb-login{
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+#fb-login #review_popup{
+    margin-top: 30px;
+}
+
+#fb-login h2{
+    font-size: 14px;
+}
+
+#fb-login .login_facebook{
+    background-color: #3b5998 !important;
+    color: #fff;
+    width: 250px;
+    margin: auto;
+}
+
+#fb-login .login_facebook i{margin-right: 10px;}
+
+.hoverstar{width: 10% !important;display: inline-block;}
+
+.caption{font-size: 10px;text-align: justify;}
+
+span.help-text {
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 10px;
+}
+span.help-text i{
+    margin-right: 5px;
+}
+
+.left-panel{
+    width: 290px;
+    float: left;
+    display: inline-block;
+    height: 150px;
+    text-align: center;
+}
+.separator{
+    border-right: 2px dotted #d4d4d4;
+    width: 15px;
+    float: left;
+    height: 150px;
+}
+span.circular-option {
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    padding: 5px;
+    background: #fff;
+    height: 20px;
+    width: 20px;
+}
+.right-panel{
+    width: 290px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+/*code added by himanshu ends*/
+
+
+.left-panel i{
+    margin-right: 10px;
+}
+
+#forgot_form #recover{
+    display: block;
+    margin: 10px auto;
+}
+
+#send-enquiry-popup p { text-align: center;}
+
+
+@media (min-width: 481px) and (max-width: 767px){
+
+    h3.form-title{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+     #user-login, #user-sign-up, #view-contact-details{
+      width: 300px;
+      height: 350px;
+    }
+
+    #sendEnquiry{
+        width: 300px;
+        height: 400px;
+    }
+
+    .left-panel{
+        width: 300px;
+        height: 70px;
+    }
+
+    .wmg-form .login_facebook{
+        width: 200px;
+    }
+
+    .separator{
+        margin: auto 10%;
+        width: 80%;
+        border-top: 2px dotted #d4d4d4;
+        border-right: 0px;
+        height: 40px;
+    }
+
+    span.circular-option{
+        position: relative;
+        top: -10px;
+    }
+
+    .right-panel{
+        width: 300px;
+    }
+
+    .wmg-form input, .wmg-form textarea{
+        width: 200px;
+    }
+
+    .wmg-form .note{
+        display: none;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    h3.form-title{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #user-sign-up, #view-contact-details{
+      width: 240px;
+      height: 450px;
+    }
+
+    #user-login{
+        width: 240px;
+        height: 350px;
+    }
+
+    #forgot-user{
+        width: 280px;
+    }
+
+    #sendEnquiry{
+        width:240px;
+        height: 400px;
+    }
+
+
+    .left-panel{
+        width: 240px;
+        height: 70px;
+    }
+
+    .wmg-form .login_facebook{
+        width: 200px;
+    }
+
+    .separator{
+        margin: auto 10%;
+        width: 80%;
+        border-top: 2px dotted #d4d4d4;
+        border-right: 0px;
+        height: 40px;
+    }
+
+    span.circular-option{
+        position: relative;
+        top: -10px;
+    }
+
+    .right-panel{
+        width: 240px;
+    }
+
+    .wmg-form input, .wmg-form textarea{
+        width: 200px;
+    }
+
+    .wmg-form .note{
+        display: none;
+    }
+
+    #review_popup {
+    height:670px;
+    text-align: center;
+    width: 230px;
+}
+
+
+}
+.custom-captcha img{  z-index: 9999;  margin: 0 26%;}
+
+#vendor-register {
+    height: 360px;
+}
+#vendor-register-form #fos_user_registration_form_captcha{
+    width: 53%;
+     padding: 7px;
+    margin: 0 0px 10px 15px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+#fos_user_registration_form_captcha:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+
+#register_form #fos_user_registration_form_captcha{
+    width: 37%;
+    padding: 7px;
+    margin: 0 0px 10px 15px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+#user-sign-up{
+    height:400px;
+}
+

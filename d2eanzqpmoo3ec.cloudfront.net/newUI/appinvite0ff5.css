@@ -1,0 +1,74 @@
+.app-banner-content{
+	 margin-bottom: 15px;background-color: #fff;position: relative;
+}
+.app-logo{
+	height: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.app-text{
+	 font-size: 15px;
+	 font-weight:700;
+}
+#download-sidepanel {
+  padding: 15px;
+}
+#arrowaccess {
+  position: absolute;
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+  color:#ccc;
+  top: 7px;
+  right: 0px;
+}
+#arrowaccess:focus {
+  outline: none;
+}
+#no-placeholder {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  font-size: 90%;
+  color: grey;
+}
+.access-input {
+  padding-left: 30px;
+  color: grey;
+}
+.status-icon {
+  height: 20px;
+  top: 7px;
+  right: 4px;
+  position: absolute;
+  display: none;
+}
+.tick-sms {
+  color: green;
+}
+#access.app-sub-btn{
+ position: absolute; top: 146px; right: 2px;border: 0;background: transparent;border-radius: 0;color:#ccc;
+}
+
+#access.app-sub-btn:focus,#access.app-sub-btn:active{
+	border:0;
+	outline: none;
+}
+.app-banner-img{
+		width: 100%;
+	}
+
+.banner-overlay{
+	position: relative;
+    border: 1px solid #e7e7e7;
+    padding: 15px;
+    padding-bottom: 0px;
+    border-radius: 4px;
+}
+@media (min-width: 1024px) and (max-width: 1279px){ 
+	#access.app-sub-btn {
+		top:169px;
+	}
+	
+
+}
